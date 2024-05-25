@@ -39,7 +39,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;    
 }
 
 .menu-item > a:hover::after {  
@@ -93,3 +93,67 @@ header {
     font-size: 56px;
     line-height: 150%;
 } 
+
+.works {
+    background-color: #010208;
+    padding-inline: 110px;
+    padding-block: 80px 120px;
+}
+h2 {
+    color: hsla(220, 6%, 90%, 0.55);
+}
+.accient {
+    color: #E3E4E6;    
+    font-weight: 600;
+}
+.work__item {
+    display: flex;
+    margin-top: 97px;
+    gap: 32px;
+}
+
+.work__image {
+    height: 490px;
+    width: 594px;
+    border-radius: 16px 
+}
+.work__description button {
+    border: 1px solid grey;
+    background-color: transparent;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 100px;
+    color: rgba(255, 255, 255, 0.632);
+    display: flex;
+    align-items: center;
+    font-size: 16;
+}
+.work__description > button:hover {
+    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+}
+
+.work__description {
+    color: white;
+    padding-top: 183px;
+
+}
+
+.work__description p {
+    font-size: 32px;
+    line-height: 150%;
+    color:hsla(220, 6%, 90%, 0.55);
+    margin-top: 16px;
+}
+
+p .work__description-accent {
+    color: white;
+    font-weight: 600;
+}
+
+.work__tag {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 300;
+    color:hsla(220, 6%, 90%, 0.55);
+    margin-block: 24px 32px;
+}
