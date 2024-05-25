@@ -157,3 +157,24 @@ p .work__description-accent {
     color:hsla(220, 6%, 90%, 0.55);
     margin-block: 24px 32px;
 }
+.clients {
+    background-color: #010208;
+    height: 500px;
+    color: white;
+    padding-inline: 112px;
+    padding-block: 80px 130px;
+}
+
+.clients h2 {
+    margin-bottom: 80px;
+}
+
+.clients__description {
+    font-weight: 600; 
+    color: white;   
+}
+
+.clients__logos {
+    display: flex;
+    justify-content: space-between;
+}
