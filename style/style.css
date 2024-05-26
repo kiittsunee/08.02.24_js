@@ -208,3 +208,37 @@ p .work__description-accent {
     padding-inline: 110px;
     padding-block: 80px 120px;
 }
+.fotter_title,.footer_description{
+    text-align: center;
+    color:#fff;
+}
+.footer_icons{
+    color: rgb(88, 87, 87);
+    text-align: center;
+    display: flex; 
+    justify-content:space-around;
+}
+.footer__img {
+    margin: 0 24px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+  
+.footer_copyright{
+    text-align: center;
+    color:#fff;
+    padding-top: 20px;
+}
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010208;
+    padding: 220px 112px 42px 112px;
+    color: hsla(220, 6%, 90%, 0.55);
+    gap: 60px;
+    text-align: center;
+}
