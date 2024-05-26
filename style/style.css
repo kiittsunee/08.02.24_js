@@ -178,3 +178,33 @@ p .work__description-accent {
     display: flex;
     justify-content: space-between;
 }
+.about__item {
+    display: flex;
+    margin-top: 97px;
+    gap: 32px;
+}
+.about__imgs {
+    display: flex;
+    align-items: center;
+    
+}
+.column {
+    grid-column: auto;
+}
+.about__img__1{
+    padding-right: 32px;
+    width: 285px;
+}
+.about__img__2, .about__img__3{
+    padding-bottom: 32px;
+    width: 285px;
+    height: 375px;
+}
+.about__img__2{
+    padding-top: 32px;
+}
+.about {
+    background-color: #010208;
+    padding-inline: 110px;
+    padding-block: 80px 120px;
+}
